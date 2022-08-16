@@ -1,0 +1,101 @@
+/* General Settings */
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+  --color-box-shadow: hsla(219, 15%, 55%, 0.401);
+  --main-font: "Outfit";
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--color-light-gray);
+  margin-top: 9rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+/* QR Code Component Card */
+
+.card {
+  max-width: 300px;
+  background-color: var(--color-white);
+  padding: 15px 15px 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card__title {
+  margin: 10px auto 0px;
+}
+
+.card__description {
+  margin: 0 auto;
+}
+
+.card__title {
+  max-width: 19ch;
+  font-size: 1.25rem;
+  color: var(--color-dark-blue);
+}
+
+.card__description {
+  max-width: 25ch;
+  font-size: 0.9375rem;
+  color: var(--color-grayish-blue);
+}
+
+.card__image {
+  height: auto;
+}
+
+/* Footer */
+
+.attribution {
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.attribution__description {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0px;
+}
+
+.attribution__link {
+  display: inline-block;
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
