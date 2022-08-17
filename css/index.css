@@ -63,6 +63,7 @@ img {
 
 .card__image {
   height: auto;
+  border-radius: 10px;
 }
 
 /* Footer */
