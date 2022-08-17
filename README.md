@@ -15,12 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### Screenshot
 
-![Final Result of the Interface](./images/interface.png)
+![Final Result of the Interface](./images/screenshot.png)
 
 ### Links
 
