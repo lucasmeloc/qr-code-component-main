@@ -18,18 +18,13 @@
 body {
   font-family: var(--main-font);
   background-color: var(--color-light-gray);
-  margin-top: 9rem;
+  margin: 120px 0px 0px;
+  max-width: 1440px;
 }
 
 img {
   display: block;
   max-width: 100%;
-}
-
-.container {
-  max-width: 1440px;
-  padding: 0px 30px;
-  margin: 0 auto;
 }
 
 /* QR Code Component Card */
@@ -95,7 +90,7 @@ img {
 /* Responsive */
 
 @media (max-width: 375px) {
-  .container {
-    padding: 0px 20px;
+  body {
+    margin: 120px 20px 0px;
   }
 }
